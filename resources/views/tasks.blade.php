@@ -10,7 +10,7 @@
 
           <thead class="bg-white">
             <tr>
-              <th scope="col-auto" class="px-6 py-2 text-left text-3xl font-bold  tracking-wider">
+              <th scope="col-auto" class="px-6 pt-6 pb-2 text-left text-3xl font-bold  tracking-wider">
                 Todo List
               </th>
               <th></th>
@@ -23,7 +23,7 @@
                 {!! csrf_field() !!}
                     
                 <td class="px-6 py-2 whitespace-nowrap w-full">
-              <div class="flex items-center">
+                  <div class="flex items-center">
                   
 
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -31,21 +31,20 @@
                 id="task-name"
                 type="text"
                 placeholder="Add Todo">
-                
+                  
+               
+               </div>
             </td>
                 
-                
-                <td class="px-6 py-2 whitespace-nowrap text-right text-sm font-medium">
-            <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-6">
+             
+                </form> 
+                <td>
+                <div class="px-6 py-2 whitespace-nowrap text-right text-sm font-medium">
                 <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-2 border border-blue-500 hover:border-transparent rounded">
   Add
 </button>
                 </div>
-            </div>
-            
-            </div>
-        </form></td>
+                </td>
               </tr>
 
           @foreach ($tasks as $task)  
