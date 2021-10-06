@@ -37,13 +37,13 @@
             </td>
                 
              
-                </form> 
+                
                 <td>
                 <div class="px-6 py-2 whitespace-nowrap text-right text-sm font-medium">
                 <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-2 border border-blue-500 hover:border-transparent rounded">
   Add
 </button>
-                </div>
+                </div></form> 
                 </td>
               </tr>
 
